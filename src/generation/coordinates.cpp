@@ -439,7 +439,7 @@ class dip__Theta : public Framework::ScanLineFilter {
             }
          }
       }
-      dip__Theta( TransformationArray transformation ) : transformation_( transformation ) {}
+      dip__Theta( TransformationArray const& transformation ) : transformation_( transformation ) {}
    private:
       TransformationArray transformation_;
 };
